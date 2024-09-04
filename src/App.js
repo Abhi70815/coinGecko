@@ -27,7 +27,7 @@ const App = () => {
       <th>Low</th>
 
     </tr>
-     {coinsData.map((coin)=>{
+     {coinsData.map((coin, index)=>{
 
       return <TableRow coin={coin}/>
      })}
